@@ -1,0 +1,51 @@
+.date {
+  z-index: 10000;
+  width: 255px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  position: absolute;
+  display: none;
+  left: 0;
+}
+.date.isActive {
+  display: block;
+}
+.month-container {
+  background: #8cb8b8;
+  /* border-top-left-radius: 0.25em; */
+  /* border-top-right-radius: 0.25em; */
+  padding: 5px;
+}
+.week-container {
+  background: #ebf6ff;
+  padding: 0 5px;
+}
+.month {
+  color: #fff;
+}
+.week {
+  padding: 5px;
+}
+.day {
+  width: 2.5em;
+  padding: 0.625em 0;
+  text-align: center;
+}
+.day-container {
+  padding: 5px;
+  background: #fff;
+}
+.day {
+  padding: 5px;
+}
+.day:hover {
+  background: #fafafa;
+}
+.day.isSelected {
+  background: #0a95ff;
+  color: #fff;
+  max-width: 2;
+  padding: 3px;
+}
+.blue--dark {
+  color: #00457a;
+}
